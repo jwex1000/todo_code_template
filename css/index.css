@@ -1,0 +1,87 @@
+h1 {
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.todo li:last-child {
+  border-radius: 0;
+}
+
+.nav-bar {
+  text-align: right;
+}
+
+.nav-bar .header {
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.project-index li {
+  padding-bottom: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.project-index li.selected {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.list-container {
+  padding-top: 20px;
+}
+
+.list-container .project .project-header {
+  margin: 0px;
+  padding: 15px;
+  border: 1px solid black;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.todo-search:before {
+  left: auto;
+  right: 25px;
+}
+
+.todo {
+  margin-bottom: 0;
+}
+
+.todo li {
+  cursor: default;
+}
+
+.todo-content {
+  padding-left: 50px;
+}
+
+.todo li:after {
+  right: auto;
+  left: 25px;
+  cursor: pointer;
+}
+
+.todo li .todo-icon {
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  padding: 0;
+  margin-top: -15px;
+  cursor: pointer;
+}
+
+.todo li .todo-icon:hover {
+  color: white;
+}
